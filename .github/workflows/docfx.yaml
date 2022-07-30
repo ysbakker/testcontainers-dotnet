@@ -13,20 +13,27 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  deploy_docs:
-    runs-on: ubuntu-latest
+  generate-docs:
+    runs-on: windows-latest
     steps:
-    - name: Checkout 🛎️
-      uses: actions/checkout@v3
-    - uses: actions/setup-dotnet@v2
-      with:
-        dotnet-version: '6.0.300' # SDK Version to use; x will use the latest version of the 3.1 channel
-    - uses: nikeee/docfx-action@v1.0.0
-      name: Build Documentation
-      with:
-        args: docfx.json
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.x'
+      - name: Setup DocFX
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: install docfx
+      - name: Install dependencies
+        run: dotnet restore
+      - name: DocFX Build
+        working-directory: docs
+        run: docfx docfx.json
+        continue-on-error: false
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: docfx/_site # The folder the action should deploy.
 
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        folder: docfx/_site # The folder the action should deploy.

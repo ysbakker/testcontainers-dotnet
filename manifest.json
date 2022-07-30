@@ -1,0 +1,1130 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/testcontainers-dotnet/testcontainers-dotnet",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.AbstractBuilder-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.AbstractBuilder-2.html",
+          "hash": "fWh3xB07oYct1++A9totW+sPAKQ3FQxFOb0zQ1ixrZU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.Consume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.Consume.html",
+          "hash": "0MhyHEGX9B+LCdLo+jgZlL4+ccTJfCrlBfjQo2y17xM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.IAbstractBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.IAbstractBuilder-1.html",
+          "hash": "Kc8DI5HIUg8GHWwTiWE1zCeqhYmqfumGxlRrnwCHpOI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.IImageFromDockerfileBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.IImageFromDockerfileBuilder.html",
+          "hash": "ja7eiZPps0U4OK2O4Zz5UrW5jvhJDDRXhjKgm9PoZZ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html",
+          "hash": "6jDx1nlqY6Ux8dlmyscGPV+UsaSRX7tEZBhMieMTZrk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.ITestcontainersNetworkBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.ITestcontainersNetworkBuilder.html",
+          "hash": "K7U76D/zvc9+XN2HhlGd+t8joB1RUBtRj7+mfhen87c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.ITestcontainersVolumeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.ITestcontainersVolumeBuilder.html",
+          "hash": "hIwSaUQ5yx4S25/n0d4rwgraqPdMOfKTi6MNNIY2Ilk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.ImageFromDockerfileBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.ImageFromDockerfileBuilder.html",
+          "hash": "UToJrFZ484f+vHXK8Opd65tOdeMMwHxCzm/CYxRL2ok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.TestcontainersBuilder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.TestcontainersBuilder-1.html",
+          "hash": "wmmCR9MvPVPP4ph+v4NwX6bgq9oNSSYHmjo4ke+zB0M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.TestcontainersBuilderDatabaseExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.TestcontainersBuilderDatabaseExtension.html",
+          "hash": "JqATdEsrSm0Fyc6RC71jBHe0DajnBATNM+a9CJbS8lw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.TestcontainersBuilderKafkaExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.TestcontainersBuilderKafkaExtension.html",
+          "hash": "yKvwTmn7aWYtvPOEmpCgbNgvM6L6wuV22Ii01MIVeSI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.TestcontainersBuilderMessageBrokerExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.TestcontainersBuilderMessageBrokerExtension.html",
+          "hash": "JBABgajndFVO31GZIUcpDNZ5hKWSnzQko11qCOMmsmU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.TestcontainersNetworkBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.TestcontainersNetworkBuilder.html",
+          "hash": "Z3RccD63ItL9piHk/iekEMPdjHCcMVfiYXuChQJH97I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.TestcontainersVolumeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.TestcontainersVolumeBuilder.html",
+          "hash": "y3uLTupnAZFmGeaQ3E2o2b7qoqrCGVpboBG9hfPNBEM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.Wait.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.Wait.html",
+          "hash": "EyYgXSAEc3+fBF/nP/H2Gi/tT2iWXre9/SdXt2aww6o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Builders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Builders.html",
+          "hash": "ZcTJNA+foM5YXoN67SjxF7hxVElcs0mzVdrRLe+GBWU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.AccessMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.AccessMode.html",
+          "hash": "djFZ+pSjnwmjfVGmS8RwXAwqeGF8uL10PhMH6o76QsU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.CouchDbTestcontainerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.CouchDbTestcontainerConfiguration.html",
+          "hash": "aUyVa8SgjHUhNwqWAV6lyyVJZpKOZwlcGnCJJMyxBKE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.CouchbaseTestcontainerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.CouchbaseTestcontainerConfiguration.html",
+          "hash": "9Tp3nWoy35xB1eEWLYtzaS93nC21/LJvMyfbW7akXmQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.DockerEndpointAuthenticationConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.DockerEndpointAuthenticationConfiguration.html",
+          "hash": "BkjZc8QdsX+RyY3oVj9/rVH3zmn+swcXnAgyW5cZYa4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.DockerResourceConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.DockerResourceConfiguration.html",
+          "hash": "qA5ieceG3VVY+Ap/SBxjT6a2Vtj2urshTfp719axzBk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.ElasticsearchTestcontainerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.ElasticsearchTestcontainerConfiguration.html",
+          "hash": "uo6E0imKsd5FZt2LMuzALpXcDO8WFDzNO09bXqGsm7E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.HostedServiceConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.HostedServiceConfiguration.html",
+          "hash": "/mQm88kfb6+LEDHigXztHi4/XD4wf0c4xLDQSPR1Dac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IDockerEndpointAuthenticationConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IDockerEndpointAuthenticationConfiguration.html",
+          "hash": "fQ9/9A8xdqDCcUNttZE6cxL2ps79ietFFpwFhEPcDXs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IDockerRegistryAuthenticationConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IDockerRegistryAuthenticationConfiguration.html",
+          "hash": "LMfCmL+m3ak+4H20IzAAX0GjUO1coN17Y5M1p6phCh8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IDockerResourceConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IDockerResourceConfiguration.html",
+          "hash": "Z5QcxHmGtnwsn2SVIWBvpLaz0V5V32yKOnQmJ47UE7U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IImageFromDockerfileConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IImageFromDockerfileConfiguration.html",
+          "hash": "9JmvnyQlUwt19mOeRZjK7pSna4W2kqleqmc6765yMEo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IMount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IMount.html",
+          "hash": "p+6VgMbmpcwPuBnH4/5+yz/Hm0D/kHWHCUiq7I/2DKI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IOperatingSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IOperatingSystem.html",
+          "hash": "Roquf4NaV6hdM1p9c88n3WNOnDWr5bar+yoVuC7D8m4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IOutputConsumer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IOutputConsumer.html",
+          "hash": "edD9rOu6n4KG6dRbidEi2fn0ZaoHct8a2DUqAqVqe7Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.ITestcontainersConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.ITestcontainersConfiguration.html",
+          "hash": "LC31zZStgI9t4n+8DoV8Wxqpz1UW8jtqw4feKIz5Us0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.ITestcontainersNetworkConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.ITestcontainersNetworkConfiguration.html",
+          "hash": "Fid+jVeyzEbw33X06vKyl66XR8NPfFXcXWYdr7yuoGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.ITestcontainersVolumeConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.ITestcontainersVolumeConfiguration.html",
+          "hash": "rZMKUbVo+PAQhTNu3dk+g3lSgUSyiY5uA+OXr6Vm0y8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IWaitForContainerOS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IWaitForContainerOS.html",
+          "hash": "oLiX2gxdEUM3ZTdU82NX+Z4Xa6dJdTe2SS/vFbqPx84="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IWaitUntil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IWaitUntil.html",
+          "hash": "Dk6U2I8HOWUNOg0t2sF2iUTSmVRmsKoQY3RsM50Gu4o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IWaitWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.IWaitWhile.html",
+          "hash": "YRhA+/HFo14GhLZRZqh0pDqlNM8E1UMBU563WD4dnNI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.KafkaTestcontainerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.KafkaTestcontainerConfiguration.html",
+          "hash": "wYSazlZCS7j6R6n6bDHq6DDonu/wWQ8MhoS/P+UZCW0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.MariaDbTestcontainerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.MariaDbTestcontainerConfiguration.html",
+          "hash": "iryYH/+BEn/02YS4IXyn1o8SqwB5tJY4tEejmAMzrA0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.MongoDbTestcontainerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.MongoDbTestcontainerConfiguration.html",
+          "hash": "jYUclmDQhPrIcyeAltJaqP1IMtQKKyVu/M5qXkzQK8k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.MountType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.MountType.html",
+          "hash": "4e/As+7P80L/uksKa7f5apy/FhbqU5H0ZPgbc/2SNws="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.MsSqlTestcontainerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.MsSqlTestcontainerConfiguration.html",
+          "hash": "FE6ZCorlmJYSCWcJRqBo6tZ2XtAmEzzYqezNldOtykw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.MySqlTestcontainerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.MySqlTestcontainerConfiguration.html",
+          "hash": "oG6YQHxeexG99OhflAmYtGFGboplWRe39KAiB3DeLaA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.NetworkDriver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.NetworkDriver.html",
+          "hash": "Ag7jKSZaBVn4kMcOwrG8aaBsrCX4sYAdTnpSIdFpUcs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.OracleTestcontainerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.OracleTestcontainerConfiguration.html",
+          "hash": "2hGSkzWCQyURL5gBEEfE7UZwColnmiSz9MgSCnsp+2g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.PostgreSqlTestcontainerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.PostgreSqlTestcontainerConfiguration.html",
+          "hash": "U0+OMoVhXJnnt0ke+9ljmyuJ50VkzCoTFoa1MrVcXBs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.RabbitMqTestcontainerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.RabbitMqTestcontainerConfiguration.html",
+          "hash": "z6VlNcX8ZQ7CfJTHHrESmYDqn75ByyQYhqRhu+0ih4Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.RedisTestcontainerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.RedisTestcontainerConfiguration.html",
+          "hash": "f8UpbbRITTIuPmrgrtc/mi8q8AIZDZxIn1kwB7FDORk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.TestcontainerDatabaseConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.TestcontainerDatabaseConfiguration.html",
+          "hash": "P5oiUEG5LVfYH9W9aIAgra3F1Xszfb80yiDoFiguX3g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.TestcontainerMessageBrokerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.TestcontainerMessageBrokerConfiguration.html",
+          "hash": "MFQi3kkg2SL2bfdze/ecqNwDHJwseQpn8/xshL0OZgM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.TestcontainersSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.TestcontainersSettings.html",
+          "hash": "lcoOVmGNMhgU10pH7E+8B8H1bFffwKiaPICpfmuw7J4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.Unix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.Unix.html",
+          "hash": "hVvcvy+iG5GrukWiT35vQ48Va4zMtTmCvhcT8jGFmWQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.Windows.html",
+          "hash": "uczIl+paJPK8FU73lCf/KAVx/KXIm2sW4IuENjOxYm0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Configurations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Configurations.html",
+          "hash": "GX9vKeR7CrB2HVJ52WI0BqqcymVZSDn+5FTUfcZ1LMo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.CouchDbTestcontainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.CouchDbTestcontainer.html",
+          "hash": "0zckUGj0TzhyR/KoNbBe9yyk0KQ7P8sxloYVBsnOXjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.CouchbaseTestcontainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.CouchbaseTestcontainer.html",
+          "hash": "nDQESt3iPH0fC586aS0GK66WhqhHac0Uyt94J16f59Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.ElasticsearchTestcontainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.ElasticsearchTestcontainer.html",
+          "hash": "Xj97PD60WG/g/RCPELzuhGKKBAHxE/qKCA4EvPJj5j4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.ExecResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.ExecResult.html",
+          "hash": "qelXecjrIN98HafdW3TyTipJA6K0lgCz1E5Oq82yWc8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.HostedServiceContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.HostedServiceContainer.html",
+          "hash": "3sN7s6SGbDcrQdq/TCN0KCu6MR8z9TDf5DK9/hMNvZk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.IDatabaseScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.IDatabaseScript.html",
+          "hash": "pttwC4BSvIx3ZD7es75Q7X7eYH8oHJ2jbOw7eSLLcQg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.IDockerContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.IDockerContainer.html",
+          "hash": "E1WebKHEBkiLKNg1gIKBOlUpgnPKKI6kiHBUvMqQzB0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.IRunningDockerContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.IRunningDockerContainer.html",
+          "hash": "OaJKxRjhnqNPJjIR9dzpxMzho1Qgefl0kkSsLQqxn5U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.ITestcontainersContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.ITestcontainersContainer.html",
+          "hash": "Aq2IlOIUFmmunnZxb0I0IGK8n5XqgbDAIQfXwG6bpE8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.KafkaTestcontainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.KafkaTestcontainer.html",
+          "hash": "f0tXqJONQD3E1Rji7jQwsJdOOASgOCMZeEd68iLV9b4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.MariaDbTestcontainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.MariaDbTestcontainer.html",
+          "hash": "GwPEVceeA01oH+L/3LfwXs7fpLhed3C/UIxoJuMhPRI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.MongoDbTestcontainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.MongoDbTestcontainer.html",
+          "hash": "Hbw2LYYOfR5OywfFVleqZXBavlG9kZHJvTp/ZL5aY2k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.MsSqlTestcontainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.MsSqlTestcontainer.html",
+          "hash": "Qv0OGAlU4JcA4T9ltGUiDwt/mLHY7DcHgf2ih5JT0lU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.MySqlTestcontainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.MySqlTestcontainer.html",
+          "hash": "nushAaFIWeKuAIdFQls/dglnZmz4Ea1X4NQIpJ5hTYE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.OracleTestcontainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.OracleTestcontainer.html",
+          "hash": "hpu35mdJw7RLKK1ivG2IYEHkE5Dt9Y+7HVRcwbWMWCA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.PostgreSqlTestcontainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.PostgreSqlTestcontainer.html",
+          "hash": "J9YqeLC/ZTsm6ayuz0bTekeUiOEeA6B9JOMOXRS+708="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.RabbitMqTestcontainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.RabbitMqTestcontainer.html",
+          "hash": "dqUQ9W1Hzqo1zwPcMg4io3kSEQSwjcOHTirKED2wNrA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.RedisTestcontainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.RedisTestcontainer.html",
+          "hash": "edAjOB2cFcHT39PzqDQEAM+g6oCAZ4IiXe8eogwn7VM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.ResourceReaper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.ResourceReaper.html",
+          "hash": "nNO/tABT5tHtUq0qlCfnUapzXUk3I/G1pd7Gry7zBQI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.ResourceReaperException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.ResourceReaperException.html",
+          "hash": "a4h9PHiu9RV23SxaKO0Kcf+I6ffxJIXzTOJ6QPlg158="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.ResourceReaperState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.ResourceReaperState.html",
+          "hash": "TVC/QFc2J+ATCtUb4mabHVJE7TDD2S7UHdi7rKkRaLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.ResourceReaperStateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.ResourceReaperStateEventArgs.html",
+          "hash": "QNGWripFGOMVF1OmK2v8lIUVL07nrA67XKwtlr8/PK0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.TestcontainerDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.TestcontainerDatabase.html",
+          "hash": "kkdSQ2+JVYwLUD1CCO+MUUU2ZCSuzEo3W5gdOouUsns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.TestcontainerMessageBroker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.TestcontainerMessageBroker.html",
+          "hash": "02TZMtqHYAMqx9jgKC6vcYuIJLqQZgO0bM3CBxAN10E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.TestcontainersContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.TestcontainersContainer.html",
+          "hash": "qnzSIr51qPN2EmIYaHGhc96KwSy1sYU03sM8JFtt8vg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.TestcontainersState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.TestcontainersState.html",
+          "hash": "5E06fzHvUBsx6NBvHqJK8j3Q5CsXF7SvZZG+Q2Xgkac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Containers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Containers.html",
+          "hash": "2aluQTkDpcOV3GEYn5RtEgXFE0txDodlZ69xVIzFvWk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Images.DockerImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Images.DockerImage.html",
+          "hash": "CRZspdCGI/Rq2LJXLcYekozLFt9BU4K6zIKcIlFoccg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Images.IDockerImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Images.IDockerImage.html",
+          "hash": "ff5qQ5mHb4//pUigChKtlz2IhlhQ0WDF8xWjsSoWxJc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Images.IgnoreFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Images.IgnoreFile.html",
+          "hash": "rSs9UH7NVDvZ5j0Jbbut+4AOLz9WH1pk1KtpQ6dypmo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Images.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Images.html",
+          "hash": "a6GTdOZqs2tInHNFzkXYrqMH1GS4HIPhRi6k96KmgAo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Networks.DockerNetwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Networks.DockerNetwork.html",
+          "hash": "xKHgZdKyMEvccNl0h3ABaYLMXdnXenlb70rEWC95/10="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Networks.IDockerNetwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Networks.IDockerNetwork.html",
+          "hash": "lwtIoMcXfqvUbSzbosEnL74lHSyKKloSrZgPTbD62Ts="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Networks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Networks.html",
+          "hash": "D7Qrme/wdj6FiBHbFIojucMlKZhLRlM/kNJ5gLR8iOw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Volumes.IDockerVolume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Volumes.IDockerVolume.html",
+          "hash": "r4I6dgkCepa9dHDegceY8Ifm63Ofy1//dKY/i7Va96Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docfx/api/DotNet.Testcontainers.Volumes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/DotNet.Testcontainers.Volumes.html",
+          "hash": "Atq62LwNttY1kUJtnuWuJ8CSKj8JiJF52j8HlOI+vrk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docfx/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docfx/api/toc.html",
+          "hash": "njxghWzs/vtgMkpKolPNhJ5I3CBdqmxJajjnPcAtxvU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 89,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

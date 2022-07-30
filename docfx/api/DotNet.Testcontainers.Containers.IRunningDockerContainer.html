@@ -1,0 +1,773 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IRunningDockerContainer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IRunningDockerContainer
+   ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer">
+  
+  
+  <h1 id="DotNet_Testcontainers_Containers_IRunningDockerContainer" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer" class="text-break">Interface IRunningDockerContainer
+  </h1>
+  <div class="markdown level0 summary"><p>This class represents a running Docker container.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNet.Testcontainers.Containers.html">DotNet.Testcontainers.Containers</a></h6>
+  <h6><strong>Assembly</strong>: Testcontainers.dll</h6>
+  <h5 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IRunningDockerContainer</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Containers_IRunningDockerContainer_Hostname.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Containers.IRunningDockerContainer.Hostname%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Containers/IDockerContainer.cs/#L97">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Containers_IRunningDockerContainer_Hostname_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.Hostname*"></a>
+  <h4 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_Hostname" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.Hostname">Hostname</h4>
+  <div class="markdown level1 summary"><p>Gets the Testcontainers hostname.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NotNull]
+string Hostname { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the Docker container hostname if present or an empty string instead.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If container was not created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Containers_IRunningDockerContainer_Id.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Containers.IRunningDockerContainer.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Containers/IDockerContainer.cs/#L57">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Containers_IRunningDockerContainer_Id_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.Id*"></a>
+  <h4 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_Id" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.Id">Id</h4>
+  <div class="markdown level1 summary"><p>Gets the Testcontainers id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NotNull]
+string Id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the Docker container id if present or an empty string instead.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If container was not created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Containers_IRunningDockerContainer_Image.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Containers.IRunningDockerContainer.Image%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Containers/IDockerContainer.cs/#L106">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Containers_IRunningDockerContainer_Image_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.Image*"></a>
+  <h4 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_Image" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.Image">Image</h4>
+  <div class="markdown level1 summary"><p>Gets the Testcontainers image name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NotNull]
+IDockerImage Image { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Images.IDockerImage.html">IDockerImage</a></td>
+        <td><p>Returns the Docker image.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Containers_IRunningDockerContainer_IpAddress.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Containers.IRunningDockerContainer.IpAddress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Containers/IDockerContainer.cs/#L77">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Containers_IRunningDockerContainer_IpAddress_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.IpAddress*"></a>
+  <h4 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_IpAddress" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.IpAddress">IpAddress</h4>
+  <div class="markdown level1 summary"><p>Gets the Testcontainers ip address.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NotNull]
+string IpAddress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the Docker container ip address if present or an empty string instead.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If container was not created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Containers_IRunningDockerContainer_MacAddress.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Containers.IRunningDockerContainer.MacAddress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Containers/IDockerContainer.cs/#L87">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Containers_IRunningDockerContainer_MacAddress_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.MacAddress*"></a>
+  <h4 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_MacAddress" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.MacAddress">MacAddress</h4>
+  <div class="markdown level1 summary"><p>Gets the Testcontainers mac address.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NotNull]
+string MacAddress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the Docker container mac address if present or an empty string instead.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If container was not created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Containers_IRunningDockerContainer_Name.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Containers.IRunningDockerContainer.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Containers/IDockerContainer.cs/#L67">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Containers_IRunningDockerContainer_Name_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.Name*"></a>
+  <h4 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_Name" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Gets the Testcontainers name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NotNull]
+string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns the Docker container name if present or an empty string instead.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If container was not created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Containers_IRunningDockerContainer_State.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Containers.IRunningDockerContainer.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Containers/IDockerContainer.cs/#L115">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Containers_IRunningDockerContainer_State_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.State*"></a>
+  <h4 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_State" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.State">State</h4>
+  <div class="markdown level1 summary"><p>Gets the Testcontainers state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TestcontainersState State { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Containers.TestcontainersState.html">TestcontainersState</a></td>
+        <td><p>Returns the Docker container state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Containers_IRunningDockerContainer_CopyFileAsync_System_String_System_Byte___System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Containers.IRunningDockerContainer.CopyFileAsync(System.String%2CSystem.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Containers/IDockerContainer.cs/#L151">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Containers_IRunningDockerContainer_CopyFileAsync_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.CopyFileAsync*"></a>
+  <h4 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_CopyFileAsync_System_String_System_Byte___System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.CopyFileAsync(System.String,System.Byte[],System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)">CopyFileAsync(String, Byte[], Int32, Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Copies a file into the container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task CopyFileAsync(string filePath, byte[] fileContent, int accessMode = 384, int userId = 0, int groupId = 0, CancellationToken ct = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td><p>Path to the file in the container.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">fileContent</span></td>
+        <td><p>Content of the file as bytes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">accessMode</span></td>
+        <td><p>Access mode for the file (default: 0600).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Owner of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">groupId</span></td>
+        <td><p>Group of the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">ct</span></td>
+        <td><p>Cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>Task that completes when the file has been copied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_CopyFileAsync_System_String_System_Byte___System_Int32_System_Int32_System_Int32_System_Threading_CancellationToken__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><see cref="!:accessMode"></see> is a decimal value. Covert chmod (octal) to decimal.</p>
+<ul>
+<li>777 octal 🠒 111_111_111 binary 🠒 511 decimal</li>
+<li>755 octal 🠒 111_101_101 binary 🠒 493 decimal</li>
+<li>644 octal 🠒 110_100_100 binary 🠒 420 decimal</li>
+</ul>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Containers_IRunningDockerContainer_ExecAsync_System_Collections_Generic_IList_System_String__System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Containers.IRunningDockerContainer.ExecAsync(System.Collections.Generic.IList%7BSystem.String%7D%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Containers/IDockerContainer.cs/#L167">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Containers_IRunningDockerContainer_ExecAsync_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.ExecAsync*"></a>
+  <h4 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_ExecAsync_System_Collections_Generic_IList_System_String__System_Threading_CancellationToken_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.ExecAsync(System.Collections.Generic.IList{System.String},System.Threading.CancellationToken)">ExecAsync(IList&lt;String&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Executes a command in the running Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ExecResult&gt; ExecAsync(IList&lt;string&gt; command, CancellationToken ct = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">command</span></td>
+        <td><p>Shell command.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">ct</span></td>
+        <td><p>Cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DotNet.Testcontainers.Containers.ExecResult.html">ExecResult</a>&gt;</td>
+        <td><p>Task that completes when the shell command has been executed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Containers_IRunningDockerContainer_GetMappedPublicPort_System_Int32_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Containers.IRunningDockerContainer.GetMappedPublicPort(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Containers/IDockerContainer.cs/#L123">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Containers_IRunningDockerContainer_GetMappedPublicPort_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.GetMappedPublicPort*"></a>
+  <h4 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_GetMappedPublicPort_System_Int32_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.GetMappedPublicPort(System.Int32)">GetMappedPublicPort(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the public host port associated with the private container port.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ushort GetMappedPublicPort(int privatePort)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">privatePort</span></td>
+        <td><p>Private container port.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><p>Returns the public host port associated with the private container port.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If container was not created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Containers_IRunningDockerContainer_GetMappedPublicPort_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Containers.IRunningDockerContainer.GetMappedPublicPort(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Containers/IDockerContainer.cs/#L131">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Containers_IRunningDockerContainer_GetMappedPublicPort_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.GetMappedPublicPort*"></a>
+  <h4 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_GetMappedPublicPort_System_String_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.GetMappedPublicPort(System.String)">GetMappedPublicPort(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the public host port associated with the private container port.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ushort GetMappedPublicPort(string privatePort)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">privatePort</span></td>
+        <td><p>Private container port.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><p>Returns the public host port associated with the private container port.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If container was not created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Containers_IRunningDockerContainer_ReadFileAsync_System_String_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Containers.IRunningDockerContainer.ReadFileAsync(System.String%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Containers/IDockerContainer.cs/#L159">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Containers_IRunningDockerContainer_ReadFileAsync_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.ReadFileAsync*"></a>
+  <h4 id="DotNet_Testcontainers_Containers_IRunningDockerContainer_ReadFileAsync_System_String_System_Threading_CancellationToken_" data-uid="DotNet.Testcontainers.Containers.IRunningDockerContainer.ReadFileAsync(System.String,System.Threading.CancellationToken)">ReadFileAsync(String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Reads a file from the container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;byte[]&gt; ReadFileAsync(string filePath, CancellationToken ct = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td><p>Path to the file in the container.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">ct</span></td>
+        <td><p>Cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Byte</span>[]&gt;</td>
+        <td><p>Task that completes when the file has been read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Containers_IRunningDockerContainer.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Containers.IRunningDockerContainer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Containers/IDockerContainer.cs/#L48" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

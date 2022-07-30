@@ -1,0 +1,2235 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ITestcontainersBuilder&lt;TDockerContainer&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ITestcontainersBuilder&lt;TDockerContainer&gt;
+   ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1">
+  
+  
+  <h1 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1" class="text-break">Interface ITestcontainersBuilder&lt;TDockerContainer&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>A fluent Testcontainer builder.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DotNet.Testcontainers.Builders.IAbstractBuilder-1.html#DotNet_Testcontainers_Builders_IAbstractBuilder_1_WithDockerEndpoint_System_String_">IAbstractBuilder&lt;ITestcontainersBuilder&lt;TDockerContainer&gt;&gt;.WithDockerEndpoint(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNet.Testcontainers.Builders.IAbstractBuilder-1.html#DotNet_Testcontainers_Builders_IAbstractBuilder_1_WithDockerEndpoint_System_Uri_">IAbstractBuilder&lt;ITestcontainersBuilder&lt;TDockerContainer&gt;&gt;.WithDockerEndpoint(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNet.Testcontainers.Builders.IAbstractBuilder-1.html#DotNet_Testcontainers_Builders_IAbstractBuilder_1_WithDockerEndpoint_DotNet_Testcontainers_Configurations_IDockerEndpointAuthenticationConfiguration_">IAbstractBuilder&lt;ITestcontainersBuilder&lt;TDockerContainer&gt;&gt;.WithDockerEndpoint(IDockerEndpointAuthenticationConfiguration)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNet.Testcontainers.Builders.IAbstractBuilder-1.html#DotNet_Testcontainers_Builders_IAbstractBuilder_1_WithCleanUp_System_Boolean_">IAbstractBuilder&lt;ITestcontainersBuilder&lt;TDockerContainer&gt;&gt;.WithCleanUp(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNet.Testcontainers.Builders.IAbstractBuilder-1.html#DotNet_Testcontainers_Builders_IAbstractBuilder_1_WithLabel_System_String_System_String_">IAbstractBuilder&lt;ITestcontainersBuilder&lt;TDockerContainer&gt;&gt;.WithLabel(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="DotNet.Testcontainers.Builders.IAbstractBuilder-1.html#DotNet_Testcontainers_Builders_IAbstractBuilder_1_WithResourceReaperSessionId_System_Guid_">IAbstractBuilder&lt;ITestcontainersBuilder&lt;TDockerContainer&gt;&gt;.WithResourceReaperSessionId(Guid)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DotNet.Testcontainers.Builders.html">DotNet.Testcontainers.Builders</a></h6>
+  <h6><strong>Assembly</strong>: Testcontainers.dll</h6>
+  <h5 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public interface ITestcontainersBuilder&lt;out TDockerContainer&gt; : IAbstractBuilder&lt;ITestcontainersBuilder&lt;TDockerContainer&gt;&gt; where TDockerContainer : ITestcontainersContainer</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDockerContainer</span></td>
+        <td><p>Type of <a class="xref" href="DotNet.Testcontainers.Containers.ITestcontainersContainer.html">ITestcontainersContainer</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_Build.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.Build%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L354">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_Build_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.Build*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_Build" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.Build">Build()</h4>
+  <div class="markdown level1 summary"><p>Builds the instance of <a class="xref" href="DotNet.Testcontainers.Containers.ITestcontainersContainer.html">ITestcontainersContainer</a> with the given configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+TDockerContainer Build()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TDockerContainer</span></td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Containers.ITestcontainersContainer.html">ITestcontainersContainer</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_ConfigureContainer_System_Action__0__.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.ConfigureContainer(System.Action%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L28">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_ConfigureContainer_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.ConfigureContainer*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_ConfigureContainer_System_Action__0__" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.ConfigureContainer(System.Action{`0})">ConfigureContainer(Action&lt;TDockerContainer&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the module configuration of the Testcontainer to override custom properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; ConfigureContainer(Action&lt;TDockerContainer&gt; moduleConfiguration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;TDockerContainer&gt;</td>
+        <td><span class="parametername">moduleConfiguration</span></td>
+        <td><p>Module configuration action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithAutoRemove_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithAutoRemove(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L292">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithAutoRemove_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithAutoRemove*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithAutoRemove_System_Boolean_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithAutoRemove(System.Boolean)">WithAutoRemove(Boolean)</h4>
+  <div class="markdown level1 summary"><p>If true, the Docker daemon will remove the stopped Testcontainer automatically. Otherwise, the Testcontainer will be kept.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithAutoRemove(bool autoRemove)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">autoRemove</span></td>
+        <td><p>True, the Docker daemon will remove the stopped Testcontainer automatically. Otherwise, the Testcontainer will be kept.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithBindMount_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithBindMount(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L186">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithBindMount_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithBindMount*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithBindMount_System_String_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithBindMount(System.String,System.String)">WithBindMount(String, String)</h4>
+  <div class="markdown level1 summary"><p>Binds and mounts the specified host machine volume into the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithBindMount(string source, string destination)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>An absolute path or a name value within the host machine.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>An absolute path as destination in the container.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithBindMount_System_String_System_String_DotNet_Testcontainers_Configurations_AccessMode_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithBindMount(System.String%2CSystem.String%2CDotNet.Testcontainers.Configurations.AccessMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L196">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithBindMount_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithBindMount*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithBindMount_System_String_System_String_DotNet_Testcontainers_Configurations_AccessMode_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithBindMount(System.String,System.String,DotNet.Testcontainers.Configurations.AccessMode)">WithBindMount(String, String, AccessMode)</h4>
+  <div class="markdown level1 summary"><p>Binds and mounts the specified host machine volume into the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithBindMount(string source, string destination, AccessMode accessMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>An absolute path or a name value within the host machine.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>An absolute path as destination in the container.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Configurations.AccessMode.html">AccessMode</a></td>
+        <td><span class="parametername">accessMode</span></td>
+        <td><p>Volume access mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithCommand_System_String___.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithCommand(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L84">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithCommand_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithCommand*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithCommand_System_String___" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithCommand(System.String[])">WithCommand(String[])</h4>
+  <div class="markdown level1 summary"><p>Overrides the command of the Testcontainer to provide defaults for an executing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithCommand(params string[] command)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">command</span></td>
+        <td><p>List of commands, &quot;executable&quot;, &quot;param1&quot;, &quot;param2&quot; or &quot;param1&quot;, &quot;param2&quot;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithCreateContainerParametersModifier_System_Action_Docker_DotNet_Models_CreateContainerParameters__.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithCreateContainerParametersModifier(System.Action%7BDocker.DotNet.Models.CreateContainerParameters%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L338">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithCreateContainerParametersModifier_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithCreateContainerParametersModifier*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithCreateContainerParametersModifier_System_Action_Docker_DotNet_Models_CreateContainerParameters__" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithCreateContainerParametersModifier(System.Action{Docker.DotNet.Models.CreateContainerParameters})">WithCreateContainerParametersModifier(Action&lt;CreateContainerParameters&gt;)</h4>
+  <div class="markdown level1 summary"><p>Allows low level modifications of <span class="xref">Docker.DotNet.Models.CreateContainerParameters</span> after the builder configuration has been applied.
+Multiple modifiers will be executed in order of insertion.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithCreateContainerParametersModifier(Action&lt;CreateContainerParameters&gt; parameterModifier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">Docker.DotNet.Models.CreateContainerParameters</span>&gt;</td>
+        <td><span class="parametername">parameterModifier</span></td>
+        <td><p>The action that invokes modifying the <span class="xref">Docker.DotNet.Models.CreateContainerParameters</span> instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithCreateContainerParametersModifier_System_Action_Docker_DotNet_Models_CreateContainerParameters___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This exposes the underlying Docker.DotNet API, it might change. Scope is outside this project.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithEntrypoint_System_String___.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithEntrypoint(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L76">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithEntrypoint_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithEntrypoint*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithEntrypoint_System_String___" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithEntrypoint(System.String[])">WithEntrypoint(String[])</h4>
+  <div class="markdown level1 summary"><p>Overrides the entrypoint of the Testcontainer to configure an executable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithEntrypoint(params string[] entrypoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">entrypoint</span></td>
+        <td><p>Entrypoint executable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithEnvironment_System_Collections_Generic_IReadOnlyDictionary_System_String_System_String__.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithEnvironment(System.Collections.Generic.IReadOnlyDictionary%7BSystem.String%2CSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L101">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithEnvironment_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithEnvironment*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithEnvironment_System_Collections_Generic_IReadOnlyDictionary_System_String_System_String__" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithEnvironment(System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">WithEnvironment(IReadOnlyDictionary&lt;String, String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Exports the environment variables in the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithEnvironment(IReadOnlyDictionary&lt;string, string&gt; environments)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">environments</span></td>
+        <td><p>Dictionary of environment variables.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithEnvironment_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithEnvironment(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L93">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithEnvironment_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithEnvironment*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithEnvironment_System_String_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithEnvironment(System.String,System.String)">WithEnvironment(String, String)</h4>
+  <div class="markdown level1 summary"><p>Exports the environment variable in the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithEnvironment(string name, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Environment variable name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Environment variable value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithExposedPort_System_Int32_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithExposedPort(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L109">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithExposedPort_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithExposedPort*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithExposedPort_System_Int32_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithExposedPort(System.Int32)">WithExposedPort(Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets the port of the Testcontainer to expose, without publishing the port to the host system’s interfaces.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithExposedPort(int port)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">port</span></td>
+        <td><p>Port to expose.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithExposedPort_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithExposedPort(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L118">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithExposedPort_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithExposedPort*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithExposedPort_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithExposedPort(System.String)">WithExposedPort(String)</h4>
+  <div class="markdown level1 summary"><p>Exposes the port of the Testcontainer, without publishing the port to the host system’s interfaces.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithExposedPort(string port)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">port</span></td>
+        <td><p>Port to expose.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithExposedPort_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Append /tcp|udp|sctp to change the protocol e.g. &quot;53/udp&quot;. Default: tcp.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithHostname_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithHostname(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L60">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithHostname_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithHostname*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithHostname_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithHostname(System.String)">WithHostname(String)</h4>
+  <div class="markdown level1 summary"><p>Sets the hostname of the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithHostname(string hostname)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">hostname</span></td>
+        <td><p>Testcontainers hostname.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithImage_DotNet_Testcontainers_Images_IDockerImage_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithImage(DotNet.Testcontainers.Images.IDockerImage)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L44">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithImage_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithImage*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithImage_DotNet_Testcontainers_Images_IDockerImage_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithImage(DotNet.Testcontainers.Images.IDockerImage)">WithImage(IDockerImage)</h4>
+  <div class="markdown level1 summary"><p>Sets the Docker image, which is used to create the Testcontainer instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithImage(IDockerImage image)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Images.IDockerImage.html">IDockerImage</a></td>
+        <td><span class="parametername">image</span></td>
+        <td><p>The Docker image.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithImage_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithImage(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L36">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithImage_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithImage*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithImage_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithImage(System.String)">WithImage(String)</h4>
+  <div class="markdown level1 summary"><p>Sets the Docker image, which is used to create the Testcontainer instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithImage(string image)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">image</span></td>
+        <td><p>The Docker image.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithMount_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithMount(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L165">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithMount_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithMount*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithMount_System_String_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithMount(System.String,System.String)">WithMount(String, String)</h4>
+  <div class="markdown level1 summary"><p>Binds and mounts the specified host machine volume into the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+[Obsolete(&quot;Use WithBindMount(string source, string destination) instead.&quot;)]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithMount(string source, string destination)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>An absolute path or a name value within the host machine.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>An absolute path as destination in the container.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithMount_System_String_System_String_DotNet_Testcontainers_Configurations_AccessMode_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithMount(System.String%2CSystem.String%2CDotNet.Testcontainers.Configurations.AccessMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L176">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithMount_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithMount*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithMount_System_String_System_String_DotNet_Testcontainers_Configurations_AccessMode_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithMount(System.String,System.String,DotNet.Testcontainers.Configurations.AccessMode)">WithMount(String, String, AccessMode)</h4>
+  <div class="markdown level1 summary"><p>Binds and mounts the specified host machine volume into the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+[Obsolete(&quot;Use WithBindMount(string source, string destination, AccessMode accessMode) instead.&quot;)]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithMount(string source, string destination, AccessMode accessMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>An absolute path or a name value within the host machine.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>An absolute path as destination in the container.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Configurations.AccessMode.html">AccessMode</a></td>
+        <td><span class="parametername">accessMode</span></td>
+        <td><p>Volume access mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithName_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L52">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithName_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithName*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithName_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithName(System.String)">WithName(String)</h4>
+  <div class="markdown level1 summary"><p>Sets the name of the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Testcontainers name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithNetwork_DotNet_Testcontainers_Networks_IDockerNetwork_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithNetwork(DotNet.Testcontainers.Networks.IDockerNetwork)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L268">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithNetwork_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithNetwork*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithNetwork_DotNet_Testcontainers_Networks_IDockerNetwork_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithNetwork(DotNet.Testcontainers.Networks.IDockerNetwork)">WithNetwork(IDockerNetwork)</h4>
+  <div class="markdown level1 summary"><p>Connects to the specified network.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithNetwork(IDockerNetwork dockerNetwork)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Networks.IDockerNetwork.html">IDockerNetwork</a></td>
+        <td><span class="parametername">dockerNetwork</span></td>
+        <td><p>Network to connect container to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithNetwork_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithNetwork(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L260">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithNetwork_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithNetwork*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithNetwork_System_String_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithNetwork(System.String,System.String)">WithNetwork(String, String)</h4>
+  <div class="markdown level1 summary"><p>Connects to the specified network.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithNetwork(string id, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>Id of the network to connect to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the network to connect to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithNetworkAliases_System_Collections_Generic_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithNetworkAliases(System.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L284">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithNetworkAliases_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithNetworkAliases*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithNetworkAliases_System_Collections_Generic_IEnumerable_System_String__" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithNetworkAliases(System.Collections.Generic.IEnumerable{System.String})">WithNetworkAliases(IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Assigns the specified network-scoped aliases to the container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithNetworkAliases(IEnumerable&lt;string&gt; networkAliases)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">networkAliases</span></td>
+        <td><p>Network-scoped aliases.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithNetworkAliases_System_String___.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithNetworkAliases(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L276">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithNetworkAliases_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithNetworkAliases*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithNetworkAliases_System_String___" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithNetworkAliases(System.String[])">WithNetworkAliases(String[])</h4>
+  <div class="markdown level1 summary"><p>Assigns the specified network-scoped aliases to the container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithNetworkAliases(params string[] networkAliases)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">networkAliases</span></td>
+        <td><p>Network-scoped aliases.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithOutputConsumer_DotNet_Testcontainers_Configurations_IOutputConsumer_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithOutputConsumer(DotNet.Testcontainers.Configurations.IOutputConsumer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L319">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithOutputConsumer_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithOutputConsumer*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithOutputConsumer_DotNet_Testcontainers_Configurations_IOutputConsumer_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithOutputConsumer(DotNet.Testcontainers.Configurations.IOutputConsumer)">WithOutputConsumer(IOutputConsumer)</h4>
+  <div class="markdown level1 summary"><p>Sets the output consumer to capture the Testcontainer stdout and stderr messages.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithOutputConsumer(IOutputConsumer outputConsumer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Configurations.IOutputConsumer.html">IOutputConsumer</a></td>
+        <td><span class="parametername">outputConsumer</span></td>
+        <td><p>Output consumer to capture stdout and stderr.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithPortBinding(System.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L127">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithPortBinding*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_System_Int32_System_Boolean_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithPortBinding(System.Int32,System.Boolean)">WithPortBinding(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Binds the port of the Testcontainer to the same port of the host machine.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithPortBinding(int port, bool assignRandomHostPort = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">port</span></td>
+        <td><p>Port to bind between Testcontainer and host machine.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">assignRandomHostPort</span></td>
+        <td><p>True, Testcontainer will bind the port to a random host port, otherwise the host and container ports are the same.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithPortBinding(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L136">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithPortBinding*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_System_Int32_System_Int32_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithPortBinding(System.Int32,System.Int32)">WithPortBinding(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Binds the port of the Testcontainer to the specified port of the host machine.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithPortBinding(int hostPort, int containerPort)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">hostPort</span></td>
+        <td><p>Port of the host machine.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">containerPort</span></td>
+        <td><p>Port of the Testcontainer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithPortBinding(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L146">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithPortBinding*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_System_String_System_Boolean_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithPortBinding(System.String,System.Boolean)">WithPortBinding(String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Binds the port of the Testcontainer to the same port of the host machine.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithPortBinding(string port, bool assignRandomHostPort = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">port</span></td>
+        <td><p>Port to bind between Testcontainer and host machine.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">assignRandomHostPort</span></td>
+        <td><p>True, Testcontainer will bind the port to a random host port, otherwise the host and container ports are the same.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_System_String_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Append /tcp|udp|sctp to change the protocol e.g. &quot;53/udp&quot;. Default: tcp.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithPortBinding(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L156">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithPortBinding*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_System_String_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithPortBinding(System.String,System.String)">WithPortBinding(String, String)</h4>
+  <div class="markdown level1 summary"><p>Binds the port of the Testcontainer to the specified port of the host machine.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithPortBinding(string hostPort, string containerPort)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">hostPort</span></td>
+        <td><p>Port of the host machine.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerPort</span></td>
+        <td><p>Port of the Testcontainer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPortBinding_System_String_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Append /tcp|udp|sctp to <see cref="!:containerPort"></see> to change the protocol e.g. &quot;53/udp&quot;. Default: tcp.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPrivileged_System_Boolean_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithPrivileged(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L300">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPrivileged_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithPrivileged*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithPrivileged_System_Boolean_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithPrivileged(System.Boolean)">WithPrivileged(Boolean)</h4>
+  <div class="markdown level1 summary"><p>If true, the Testcontainer will get extended privileges. Otherwise, the Testcontainer will be unprivileged.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithPrivileged(bool privileged)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">privileged</span></td>
+        <td><p>The Testcontainer will get extended privileges. Otherwise, the Testcontainer will be unprivileged.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithRegistryAuthentication_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithRegistryAuthentication(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L310">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithRegistryAuthentication_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithRegistryAuthentication*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithRegistryAuthentication_System_String_System_String_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithRegistryAuthentication(System.String,System.String,System.String)">WithRegistryAuthentication(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Sets the Docker registry authentication configuration to authenticate against private Docker registries.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+[Obsolete(&quot;Use the local Docker credential store.&quot;)]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithRegistryAuthentication(string registryEndpoint, string username, string password)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">registryEndpoint</span></td>
+        <td><p>Docker registry endpoint.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">username</span></td>
+        <td><p>Username to authenticate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">password</span></td>
+        <td><p>Password to authenticate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithStartupCallback_System_Func_DotNet_Testcontainers_Containers_IRunningDockerContainer_System_Threading_CancellationToken_System_Threading_Tasks_Task__.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithStartupCallback(System.Func%7BDotNet.Testcontainers.Containers.IRunningDockerContainer%2CSystem.Threading.CancellationToken%2CSystem.Threading.Tasks.Task%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L347">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithStartupCallback_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithStartupCallback*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithStartupCallback_System_Func_DotNet_Testcontainers_Containers_IRunningDockerContainer_System_Threading_CancellationToken_System_Threading_Tasks_Task__" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithStartupCallback(System.Func{DotNet.Testcontainers.Containers.IRunningDockerContainer,System.Threading.CancellationToken,System.Threading.Tasks.Task})">WithStartupCallback(Func&lt;IRunningDockerContainer, CancellationToken, Task&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the startup callback to invoke after the Testcontainer start.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithStartupCallback(Func&lt;IRunningDockerContainer, CancellationToken, Task&gt; startupCallback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="DotNet.Testcontainers.Containers.IRunningDockerContainer.html">IRunningDockerContainer</a>, <span class="xref">System.Threading.CancellationToken</span>, <span class="xref">System.Threading.Tasks.Task</span>&gt;</td>
+        <td><span class="parametername">startupCallback</span></td>
+        <td><p>The callback method to invoke.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithStartupCallback_System_Func_DotNet_Testcontainers_Containers_IRunningDockerContainer_System_Threading_CancellationToken_System_Threading_Tasks_Task___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Is invoked once after the Testcontainer is started and before the wait strategies are executed.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithTmpfsMount_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithTmpfsMount(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L242">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithTmpfsMount_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithTmpfsMount*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithTmpfsMount_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithTmpfsMount(System.String)">WithTmpfsMount(String)</h4>
+  <div class="markdown level1 summary"><p>Mounts the specified tmpfs (temporary file system) volume into the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithTmpfsMount(string destination)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>An absolute path as destination in the container.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithTmpfsMount_System_String_DotNet_Testcontainers_Configurations_AccessMode_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithTmpfsMount(System.String%2CDotNet.Testcontainers.Configurations.AccessMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L251">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithTmpfsMount_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithTmpfsMount*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithTmpfsMount_System_String_DotNet_Testcontainers_Configurations_AccessMode_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithTmpfsMount(System.String,DotNet.Testcontainers.Configurations.AccessMode)">WithTmpfsMount(String, AccessMode)</h4>
+  <div class="markdown level1 summary"><p>Mounts the specified tmpfs (temporary file system) volume into the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithTmpfsMount(string destination, AccessMode accessMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>An absolute path as destination in the container.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Configurations.AccessMode.html">AccessMode</a></td>
+        <td><span class="parametername">accessMode</span></td>
+        <td><p>Volume access mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithVolumeMount_DotNet_Testcontainers_Volumes_IDockerVolume_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithVolumeMount(DotNet.Testcontainers.Volumes.IDockerVolume%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L224">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithVolumeMount_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithVolumeMount*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithVolumeMount_DotNet_Testcontainers_Volumes_IDockerVolume_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithVolumeMount(DotNet.Testcontainers.Volumes.IDockerVolume,System.String)">WithVolumeMount(IDockerVolume, String)</h4>
+  <div class="markdown level1 summary"><p>Mounts the specified managed volume into the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithVolumeMount(IDockerVolume source, string destination)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Volumes.IDockerVolume.html">IDockerVolume</a></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>Name of the managed volume.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>An absolute path as destination in the container.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithVolumeMount_DotNet_Testcontainers_Volumes_IDockerVolume_System_String_DotNet_Testcontainers_Configurations_AccessMode_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithVolumeMount(DotNet.Testcontainers.Volumes.IDockerVolume%2CSystem.String%2CDotNet.Testcontainers.Configurations.AccessMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L234">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithVolumeMount_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithVolumeMount*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithVolumeMount_DotNet_Testcontainers_Volumes_IDockerVolume_System_String_DotNet_Testcontainers_Configurations_AccessMode_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithVolumeMount(DotNet.Testcontainers.Volumes.IDockerVolume,System.String,DotNet.Testcontainers.Configurations.AccessMode)">WithVolumeMount(IDockerVolume, String, AccessMode)</h4>
+  <div class="markdown level1 summary"><p>Mounts the specified managed volume into the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithVolumeMount(IDockerVolume source, string destination, AccessMode accessMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Volumes.IDockerVolume.html">IDockerVolume</a></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>Name of the managed volume.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>An absolute path as destination in the container.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Configurations.AccessMode.html">AccessMode</a></td>
+        <td><span class="parametername">accessMode</span></td>
+        <td><p>Volume access mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithVolumeMount_System_String_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithVolumeMount(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L205">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithVolumeMount_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithVolumeMount*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithVolumeMount_System_String_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithVolumeMount(System.String,System.String)">WithVolumeMount(String, String)</h4>
+  <div class="markdown level1 summary"><p>Mounts the specified managed volume into the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithVolumeMount(string source, string destination)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>Name of the managed volume.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>An absolute path as destination in the container.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithVolumeMount_System_String_System_String_DotNet_Testcontainers_Configurations_AccessMode_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithVolumeMount(System.String%2CSystem.String%2CDotNet.Testcontainers.Configurations.AccessMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L215">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithVolumeMount_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithVolumeMount*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithVolumeMount_System_String_System_String_DotNet_Testcontainers_Configurations_AccessMode_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithVolumeMount(System.String,System.String,DotNet.Testcontainers.Configurations.AccessMode)">WithVolumeMount(String, String, AccessMode)</h4>
+  <div class="markdown level1 summary"><p>Mounts the specified managed volume into the Testcontainer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithVolumeMount(string source, string destination, AccessMode accessMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>Name of the managed volume.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>An absolute path as destination in the container.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Configurations.AccessMode.html">AccessMode</a></td>
+        <td><span class="parametername">accessMode</span></td>
+        <td><p>Volume access mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithWaitStrategy_DotNet_Testcontainers_Configurations_IWaitForContainerOS_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithWaitStrategy(DotNet.Testcontainers.Configurations.IWaitForContainerOS)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L328">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithWaitStrategy_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithWaitStrategy*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithWaitStrategy_DotNet_Testcontainers_Configurations_IWaitForContainerOS_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithWaitStrategy(DotNet.Testcontainers.Configurations.IWaitForContainerOS)">WithWaitStrategy(IWaitForContainerOS)</h4>
+  <div class="markdown level1 summary"><p>Sets the wait strategies to complete the Testcontainer asynchronous start task.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithWaitStrategy(IWaitForContainerOS waitStrategy)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Configurations.IWaitForContainerOS.html">IWaitForContainerOS</a></td>
+        <td><span class="parametername">waitStrategy</span></td>
+        <td><p>Wait strategy to complete the Testcontainer start, default wait strategy implementation is <span class="xref">DotNet.Testcontainers.Configurations.UntilContainerIsRunning</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithWaitStrategy_DotNet_Testcontainers_Configurations_IWaitForContainerOS__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Multiple wait strategies are executed one after the other.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithWorkingDirectory_System_String_.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601.WithWorkingDirectory(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L68">View Source</a>
+  </span>
+  <a id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithWorkingDirectory_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithWorkingDirectory*"></a>
+  <h4 id="DotNet_Testcontainers_Builders_ITestcontainersBuilder_1_WithWorkingDirectory_System_String_" data-uid="DotNet.Testcontainers.Builders.ITestcontainersBuilder`1.WithWorkingDirectory(System.String)">WithWorkingDirectory(String)</h4>
+  <div class="markdown level1 summary"><p>Overrides the working directory of the Testcontainer for the instruction sets.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+ITestcontainersBuilder&lt;TDockerContainer&gt; WithWorkingDirectory(string workingDirectory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">workingDirectory</span></td>
+        <td><p>Working directory.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder</a>&lt;TDockerContainer&gt;</td>
+        <td><p>A configured instance of <a class="xref" href="DotNet.Testcontainers.Builders.ITestcontainersBuilder-1.html">ITestcontainersBuilder&lt;TDockerContainer&gt;</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ysbakker/testcontainers-dotnet/new/develop/apiSpec/new?filename=DotNet_Testcontainers_Builders_ITestcontainersBuilder_1.md&amp;value=---%0Auid%3A%20DotNet.Testcontainers.Builders.ITestcontainersBuilder%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ysbakker/testcontainers-dotnet/blob/develop/src/Testcontainers/Builders/ITestcontainersBuilder.cs/#L19" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
